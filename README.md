@@ -20,9 +20,11 @@ brew install python
 
 Python 3.9 should be installed.
 
-To check installation type python3 to enter interactive shell and paste print ("hello") and press enter. If it says hello back to you, you are on the right path. If not, go over the previous steps until you get to this point. to exit out of the shell use Control + B
+To check installation type python3 to enter interactive shell and paste print ("hello") and press enter. If it says hello back to you, you are on the right path. If not, go over the previous steps until you get to this point. to exit out of the shell use Control + z
 
-Next, you will need to make sure you are using the correct version of pip. python -m pip install -U pip if you already
-Once your pip has been upgraded, you must install beautifulsoup4 with the following command:
+Next, you will need to make sure you are using the correct version of pip. 
+Use the command: "pip3 list" to see what libraries have been installed. If you do not have beautiful soup 4 (which you should not have yet) use the command: "pip3 install bs4" to install beautiful soup 4. You should receive a successful installation message. 
+
+Now that we have the library installed, we need to create a web scraper.You typically use web scrapers to search and capture code that we are looking for specifically within a certain web page. 
 
 For this particular exercise I will be using VS Code with the Python Extension. My local machine is a Mac. 
